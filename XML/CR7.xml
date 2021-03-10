@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CR7 SYSTEM "CR7.dtd">
+<CR7>
+		<biography datenaissance="5-02-1985" sexe="H">
+			<nom>Ronaldo</nom>
+			<prenom>Cristiano</prenom>
+			<fullname>Cristiano Ronaldo dos Santos Aveiro</fullname>
+			<birthplace>Funchal</birthplace>
+			<nationality>Portugais</nationality>
+			<career>Depuis 2002</career>
+		</biography>
+	
+	<parcours>
+		<junior>
+				<club_list>
+						<club1>CF Andorinha (1993-1995)</club1>
+								
+						<club2>CD Nacional (1995-1997)</club2>
+								
+						<club3>Sporting CP (1997-2002)</club3>
+				</club_list>
+		</junior>
+	
+		<senior>
+				<club_list>
+						<club1>Sporting CP (2002-2003)</club1>
+								
+						<club2>Manchester United (2003-2009)</club2>
+								
+						<club3>Real Madrid (2009-2018)</club3>
+						
+						<club4>Juventus FC (depuis 2018)</club4>
+				</club_list>
+		</senior>
+	
+		<national>
+				<age_category>
+						<select1>Portugal -15 (2001)</select1>
+								
+						<select2>Portugal -17 (2001-2002)</select2>
+								
+						<select3>Portugal -20 (2003)</select3>
+								
+						<select4>Portugal espoir (2002-2003)</select4>
+								
+						<select5>Portugal Olympique (2004)</select5>
+								
+						<select6>Portugal (depuis 2003)</select6>	
+				</age_category>
+		</national>
+	</parcours>
+	
+	
+	<titres>
+			<ldc>Ligues des Champions (5 victoires) | (2008 / 2014 / 2016 / 2017 / 2018)</ldc>
+			
+			<souliers_or>Souliers d'or (4 gagnés) | (2008 / 2011 / 2014 / 2015)</souliers_or>
+						
+			<ballons_dor>Ballons d'or (5 gagnés) | (2008 / 2013 / 2014 / 2016 / 2017)</ballons_dor>
+						
+			<best_FIFA>Meilleur joueur de la FIFA (2 fois) | (2016 / 2017)</best_FIFA>
+					
+			<best_europe>Meilleur joueur d'Europe (3 fois) | (2014 / 2016 / 2017)</best_europe>
+						
+			<euro>victoire Euro 2016</euro>
+	</titres>
+
+	<sponsors>
+			<sp1>Nike (depuis 2003)</sp1>
+				
+			<sp2>Tag Heuer (2014)</sp2>
+				
+			<sp3>Castrol (2009)</sp3>
+				
+			<sp4>SFR (2016)</sp4>
+				
+			<sp5>ROC headphones</sp5>
+				
+			<sp6>Sacoor Brothers</sp6>
+				
+			<sp7>KFC</sp7>
+				
+			<sp8>Coca-Cola</sp8>
+				
+			<sp9>Konami</sp9>
+				
+			<sp10>Airline Emirates</sp10>
+	</sponsors>
+	
+	<family>
+			<mother>Maria Dolores dos Santos</mother>
+		
+			<father>José Dinis Aveiro</father>
+		
+			<brother>Hugo Dinarte Santos Aveiro</brother>
+		
+			<sister>
+				<s1>Elma Aveiro</s1>
+				
+				<s2>Katia Aveiro</s2>
+			</sister>
+		
+			<wife>elle est anonyme</wife>
+		
+			<children>
+					<c1>Cristiano Junior</c1>
+				
+					<c2>Alana Martina dos Santos Aveiro</c2>
+				
+					<c3>Eva Maria Dos Santos</c3>
+				
+					<c4>Mateo Ronaldo</c4>
+			</children>
+	</family>
+	
+	<records>
+			<r1>Premier internationnal européen à inscrire 100 buts en sélection</r1>
+		
+			<r2>Joueur portugais à inscrire le plus de buts en Serie A (Championnat Italien)</r2>
+		
+			<r3>Premier joueur à marquer au moins une fois sur 7 journées consécutives de Serie A (Championnat Italien)</r3>
+		
+			<r4>Meilleur buteur de l'histoire de la Ligue des Champions</r4>
+		
+			<r5>Buteur le plus âgé en Ligue des Champions</r5>
+		
+			<r6>Meilleur buteur de l'histoire du Real Madrid</r6>
+		
+			<r7>Joueur portugais à avoir inscrit le plus de buts en Liga (Championnat Espagnol)</r7>
+		
+			<r8>Meilleur buteur de la sélection portugaise</r8>
+		
+			<r9>Joueur portugais avec le plus de buts en Premier League (Championnat Anglais)</r9>
+		
+			<r10>Seul joueur à avoir marqué lors de 11 rencontres de Ligues des Champions consécutives</r10>
+		
+			<r11>A marqué un triplé dans 10 compétitions officielles</r11>
+		
+			<r12>Premier joueur de l'histoire à marquer au moins 1 triplé pendant 13 années consécutives</r12>
+	</records>
+</CR7>

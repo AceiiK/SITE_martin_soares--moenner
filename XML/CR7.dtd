@@ -1,0 +1,277 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT CR7 (biography,parcours,titres,sponsors,family,records)>
+<!ATTLIST CR7
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT biography (nom,prenom,fullname,birthplace,nationality,career)>
+<!ATTLIST biography
+  xmlns CDATA #FIXED ''
+  datenaissance NMTOKEN #REQUIRED
+  sexe NMTOKEN #REQUIRED>
+
+<!ELEMENT parcours (junior,senior,national)>
+<!ATTLIST parcours
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT titres (ldc,souliers_or,ballons_dor,best_FIFA,best_europe,
+                  euro)>
+<!ATTLIST titres
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sponsors (sp1,sp2,sp3,sp4,sp5,sp6,sp7,sp8,sp9,sp10)>
+<!ATTLIST sponsors
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT family (mother,father,brother,sister,wife,children)>
+<!ATTLIST family
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT records (r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12)>
+<!ATTLIST records
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nom (#PCDATA)>
+<!ATTLIST nom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT prenom (#PCDATA)>
+<!ATTLIST prenom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT fullname (#PCDATA)>
+<!ATTLIST fullname
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT birthplace (#PCDATA)>
+<!ATTLIST birthplace
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nationality (#PCDATA)>
+<!ATTLIST nationality
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT career (#PCDATA)>
+<!ATTLIST career
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT junior (club_list)>
+<!ATTLIST junior
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT senior (club_list)>
+<!ATTLIST senior
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT national (age_category)>
+<!ATTLIST national
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ldc (#PCDATA)>
+<!ATTLIST ldc
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT souliers_or (#PCDATA)>
+<!ATTLIST souliers_or
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ballons_dor (#PCDATA)>
+<!ATTLIST ballons_dor
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT best_FIFA (#PCDATA)>
+<!ATTLIST best_FIFA
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT best_europe (#PCDATA)>
+<!ATTLIST best_europe
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT euro (#PCDATA)>
+<!ATTLIST euro
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp1 (#PCDATA)>
+<!ATTLIST sp1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp2 (#PCDATA)>
+<!ATTLIST sp2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp3 (#PCDATA)>
+<!ATTLIST sp3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp4 (#PCDATA)>
+<!ATTLIST sp4
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp5 (#PCDATA)>
+<!ATTLIST sp5
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp6 (#PCDATA)>
+<!ATTLIST sp6
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp7 (#PCDATA)>
+<!ATTLIST sp7
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp8 (#PCDATA)>
+<!ATTLIST sp8
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp9 (#PCDATA)>
+<!ATTLIST sp9
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sp10 (#PCDATA)>
+<!ATTLIST sp10
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT mother (#PCDATA)>
+<!ATTLIST mother
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT father (#PCDATA)>
+<!ATTLIST father
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT brother (#PCDATA)>
+<!ATTLIST brother
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sister (s1,s2)>
+<!ATTLIST sister
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT wife (#PCDATA)>
+<!ATTLIST wife
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT children (c1,c2,c3,c4)>
+<!ATTLIST children
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r1 (#PCDATA)>
+<!ATTLIST r1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r2 (#PCDATA)>
+<!ATTLIST r2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r3 (#PCDATA)>
+<!ATTLIST r3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r4 (#PCDATA)>
+<!ATTLIST r4
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r5 (#PCDATA)>
+<!ATTLIST r5
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r6 (#PCDATA)>
+<!ATTLIST r6
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r7 (#PCDATA)>
+<!ATTLIST r7
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r8 (#PCDATA)>
+<!ATTLIST r8
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r9 (#PCDATA)>
+<!ATTLIST r9
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r10 (#PCDATA)>
+<!ATTLIST r10
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r11 (#PCDATA)>
+<!ATTLIST r11
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT r12 (#PCDATA)>
+<!ATTLIST r12
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT age_category (select1,select2,select3,select4,select5,
+                        select6)>
+<!ATTLIST age_category
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT s1 (#PCDATA)>
+<!ATTLIST s1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT s2 (#PCDATA)>
+<!ATTLIST s2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT c1 (#PCDATA)>
+<!ATTLIST c1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT c2 (#PCDATA)>
+<!ATTLIST c2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT c3 (#PCDATA)>
+<!ATTLIST c3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT c4 (#PCDATA)>
+<!ATTLIST c4
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT select1 (#PCDATA)>
+<!ATTLIST select1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT select2 (#PCDATA)>
+<!ATTLIST select2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT select3 (#PCDATA)>
+<!ATTLIST select3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT select4 (#PCDATA)>
+<!ATTLIST select4
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT select5 (#PCDATA)>
+<!ATTLIST select5
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT select6 (#PCDATA)>
+<!ATTLIST select6
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT club_list (club1,club2,club3,club4?)>
+<!ATTLIST club_list
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT club1 (#PCDATA)>
+<!ATTLIST club1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT club2 (#PCDATA)>
+<!ATTLIST club2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT club3 (#PCDATA)>
+<!ATTLIST club3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT club4 (#PCDATA)>
+<!ATTLIST club4
+  xmlns CDATA #FIXED ''>
